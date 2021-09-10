@@ -14,6 +14,7 @@ function GetRoutes() {
           </div>
         }
       >
+        k
         <Switch>
           {routes.map((route, indx) => {
             return <ProtectedRoute key={route.path} {...route} />;
