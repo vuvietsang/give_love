@@ -8,7 +8,7 @@ export interface RouteConfig extends Omit<RouteProps, "render"> {
   accessRole?: any[];
   component: React.ComponentType<any>;
 }
-
+console.log(hi);
 const ProtectedRoute = ({
   path,
   component: Component,
