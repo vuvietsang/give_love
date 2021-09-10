@@ -18,6 +18,7 @@ const ProtectedRoute = ({
 }: RouteConfig) => {
   // const auth = useAppSelector((state) => state.auth?.isAuth, shallowEqual);
   // const role = useSelector((state) => state.userStatus?.userInfo?.user?.role, shallowEqual);
+  console.log("PATH", path);
   return (
     <Route
       render={(props) => {
